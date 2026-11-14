@@ -269,13 +269,13 @@ a:not(.btn){color:#ffdf36}
 }
 
 
-/* PORTADA ACTUALIZADA: redes arriba, imagen y tarjetas en la misma página */
+/* PORTADA ACTUALIZADA: redes arriba, imagenn y tarjetas en la misma página */
 .landing{padding:22px 4% 56px;min-height:100vh}
 .landing-social{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:0 auto 18px;max-width:1500px;padding:14px 18px;border:1px solid rgba(255,223,54,.35);border-radius:16px;background:rgba(7,42,28,.88)}
 .landing-social .home-social-content{flex:1;min-width:220px}
 .landing-social .home-social-content p{font-size:1.05rem;font-weight:bold;margin:0 0 9px;color:#ffdf36}
 .landing-social .home-qr{flex:0 0 86px;width:86px;height:86px;padding:6px}
-.landing-image{display:block;width:100%;max-width:1500px;max-height:460px;object-fit:contain;margin:0 auto 24px;border-radius:16px;background:#f7f5e9;border:1px solid rgba(255,223,54,.35);box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.landing-imagen{display:block;width:100%;max-width:1500px;max-height:460px;object-fit:contain;margin:0 auto 24px;border-radius:16px;background:#f7f5e9;border:1px solid rgba(255,223,54,.35);box-shadow:0 12px 30px rgba(0,0,0,.25)}
 .promo-head{margin:0 auto 24px;padding:18px 16px;border-radius:16px;background:linear-gradient(135deg,#14583a,#0d402b);border:1px solid rgba(255,223,54,.3);max-width:1100px}
 .promo-head h2{color:#ffdf36}.promo-head p{color:#fff7d1}
 /* AUTO PEQUEÑO CENTRADO ENTRE LA FRASE Y LAS TARJETAS */
@@ -283,17 +283,17 @@ a:not(.btn){color:#ffdf36}
 .center-car img{display:block;width:min(230px,55vw);height:auto;max-height:112px;object-fit:contain;border-radius:12px;filter:drop-shadow(0 7px 10px rgba(0,0,0,.35));}
 .landing .cards{max-width:1500px;margin:0 auto}
 .landing .card img{height:250px;object-fit:contain;padding:10px;background:#f7f5e9}
-@media(max-width:800px){.landing{padding:16px 4% 40px}.landing-social{align-items:flex-start}.landing-social .home-social-content{width:100%}.landing-social .home-qr{margin-left:auto}.landing-image{max-height:320px}.landing .card img{height:260px}}
+@media(max-width:800px){.landing{padding:16px 4% 40px}.landing-social{align-items:flex-start}.landing-social .home-social-content{width:100%}.landing-social .home-qr{margin-left:auto}.landing-imagen{max-height:320px}.landing .card img{height:260px}}
 
 /* PORTADA AUTOCLICK QR: nuevo diseño verde/negro, sin auto rojo */
 .landing{background:linear-gradient(135deg,#03190f 0%,#075333 52%,#03190f 100%);}
-.landing-image{display:block;width:100%;max-width:1500px;height:auto;max-height:none;object-fit:contain;margin:0 auto 22px;border:2px solid #b5f500;border-radius:18px;background:#03190f;box-shadow:0 12px 34px rgba(0,0,0,.42);}
+.landing-imagen{display:block;width:100%;max-width:1500px;height:auto;max-height:none;object-fit:contain;margin:0 auto 22px;border:2px solid #b5f500;border-radius:18px;background:#03190f;box-shadow:0 12px 34px rgba(0,0,0,.42);}
 .landing .cards{max-width:1500px;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
 .landing .card{border:2px solid #b5f500;border-radius:18px;background:linear-gradient(145deg,#14583a,#082e20);}
 .landing .card img{display:block;width:100%;height:auto;object-fit:contain;object-position:center;padding:0;background:#f7f5e9;}
 .landing .card .body{background:linear-gradient(145deg,#14583a,#082e20);}
 .landing .card h3{color:#ffdf36;}
-@media(max-width:800px){.landing .cards{grid-template-columns:1fr}.landing .card img{height:auto}.landing-image{margin-bottom:18px}}
+@media(max-width:800px){.landing .cards{grid-template-columns:1fr}.landing .card img{height:auto}.landing-imagen{margin-bottom:18px}}
 
 
 /* Sección Nosotros: botones de Visión, Misión y Valores */
@@ -317,7 +317,7 @@ a:not(.btn){color:#ffdf36}
 <body>
 
 <main>
-<!-- PÁGINA PRINCIPAL: REDES, IMAGEN Y CATÁLOGOS -->
+<!-- PÁGINA PRINCIPAL: REDES, imagenN Y CATÁLOGOS -->
 <section class="view page landing active" id="inicio">
   <div class="landing-social">
     <div class="home-social-content">
@@ -333,18 +333,18 @@ a:not(.btn){color:#ffdf36}
       <img src="/qr-whatsapp.png" alt="Código QR de WhatsApp">
     </a>
   </div>
-  <img class="landing-image" src="/portada-auto.jpg" alt="AUTOCLICK QR - servicios para tu vehículo">
+  <img class="landing-imagen" src="/portada-auto.jpg" alt="AUTOCLICK QR - servicios para tu vehículo">
 <div class="cards">
     <article class="card">
-      <img src="/image6.webp" alt="Catálogo de mantenimiento del sistema de transmisión">
+      <img src="/imagen6.webp" alt="Catálogo de mantenimiento del sistema de transmisión">
       <div class="body"><h3>Mantenimiento</h3><p>Información sobre el mantenimiento del sistema de transmisión de fuerza y sus componentes.</p><button class="btn secondary" data-go="mantenimiento" type="button">Ver catálogo</button></div>
     </article>
     <article class="card">
-      <img src="/image15.webp" alt="Catálogo de mercado de autopartes">
+      <img src="/imagen15.webp" alt="Catálogo de mercado de autopartes">
       <div class="body"><h3>Repuestos</h3><p>Referencias de autopartes y repuestos nuevos o de segunda mano.</p><button class="btn secondary" data-go="repuestos" type="button">Ver catálogo</button></div>
     </article>
     <article class="card">
-      <img src="/image35.webp" alt="Catálogo de auxilio vehicular">
+      <img src="/imagen35.webp" alt="Catálogo de auxilio vehicular">
       <div class="body"><h3>Auxilio vehicular</h3><p>Grúas y mecánicos en tu ruta de Tarma a Satipo.</p><button class="btn secondary" data-go="auxilio" type="button">Ver catálogo</button></div>
     </article>
   </div>
@@ -387,10 +387,10 @@ a:not(.btn){color:#ffdf36}
   <div class="topbar"><button class="back" data-go="inicio" type="button">← Catálogos</button><button class="btn secondary" data-go="contacto" type="button">Contacto</button></div>
   <div class="section-head"><h2>Mantenimiento</h2><p>Sistema de transmisión de fuerza y componentes relacionados.</p></div>
   <div class="catalog-grid">
-    <div class="catalog-item"><img src="/image6.webp" alt="Afiche de mantenimiento"><h3>Guía de mantenimiento</h3></div>
-    <div class="catalog-item"><img src="/image8.webp" alt="Componentes del sistema de transmisión"><h3>Componentes del sistema</h3></div>
-    <div class="catalog-item"><img src="/image10.webp" alt="Conjunto de transmisión"><h3>Conjunto de transmisión</h3></div>
-    <div class="catalog-item"><img src="/image14.webp" alt="Mecanismo de embrague"><h3>Mecanismo de embrague</h3></div>
+    <div class="catalog-item"><img src="/imagen6.webp" alt="Afiche de mantenimiento"><h3>Guía de mantenimiento</h3></div>
+    <div class="catalog-item"><img src="/imagen8.webp" alt="Componentes del sistema de transmisión"><h3>Componentes del sistema</h3></div>
+    <div class="catalog-item"><img src="/imagen10.webp" alt="Conjunto de transmisión"><h3>Conjunto de transmisión</h3></div>
+    <div class="catalog-item"><img src="/imagen14.webp" alt="Mecanismo de embrague"><h3>Mecanismo de embrague</h3></div>
   </div>
   <div class="cta-row"><button class="btn" data-go="registro" type="button">Registrarme y compartir ubicación</button></div>
 </section>
@@ -400,14 +400,14 @@ a:not(.btn){color:#ffdf36}
   <div class="topbar"><button class="back" data-go="inicio" type="button">← Catálogos</button><button class="btn secondary" data-go="contacto" type="button">Contacto</button></div>
   <div class="section-head"><h2>Repuestos</h2><p>Referencias de autopartes incluidas en el catálogo.</p></div>
   <div class="catalog-grid">
-    <div class="catalog-item"><img src="/image15.webp" alt="Afiche mercado de autopartes"><h3>Mercado de autopartes</h3></div>
-    <div class="catalog-item"><img src="/image19.webp" alt="Kit de embrague"><h3>Kit de embrague</h3><span class="price">S/ --.--</span></div>
-    <div class="catalog-item"><img src="/image20.webp" alt="Retén o sello"><h3>Retén</h3><span class="price">S/ --.--</span></div>
-    <div class="catalog-item"><img src="/image21.webp" alt="Junta universal"><h3>Cruceta</h3><span class="price">S/ --.--</span></div>
-    <div class="catalog-item"><img src="/image24.webp" alt="Aceite para vehículo"><h3>Lubricantes</h3><span class="price">S/ --.--</span></div>
-    <div class="catalog-item"><img src="/image25.webp" alt="Batería para vehículo"><h3>Batería</h3><span class="price">S/ --.--</span></div>
-    <div class="catalog-item"><img src="/image28.webp" alt="Filtro de aire"><h3>Filtro</h3><span class="price">S/ --.--</span></div>
-    <div class="catalog-item"><img src="/image31.webp" alt="Bujías"><h3>Bujías</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen15.webp" alt="Afiche mercado de autopartes"><h3>Mercado de autopartes</h3></div>
+    <div class="catalog-item"><img src="/imagen19.webp" alt="Kit de embrague"><h3>Kit de embrague</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen20.webp" alt="Retén o sello"><h3>Retén</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen21.webp" alt="Junta universal"><h3>Cruceta</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen24.webp" alt="Aceite para vehículo"><h3>Lubricantes</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen25.webp" alt="Batería para vehículo"><h3>Batería</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen28.webp" alt="Filtro de aire"><h3>Filtro</h3><span class="price">S/ --.--</span></div>
+    <div class="catalog-item"><img src="/imagen31.webp" alt="Bujías"><h3>Bujías</h3><span class="price">S/ --.--</span></div>
   </div>
   <div class="cta-row"><button class="btn" data-go="registro" type="button">Registrarme y compartir ubicación</button></div>
 </section>
@@ -417,10 +417,10 @@ a:not(.btn){color:#ffdf36}
   <div class="topbar"><button class="back" data-go="inicio" type="button">← Catálogos</button><button class="btn secondary" data-go="contacto" type="button">Contacto</button></div>
   <div class="section-head"><h2>Auxilio vehicular</h2><p>Información para pedir apoyo durante tu recorrido.</p></div>
   <div class="catalog-grid">
-    <div class="catalog-item"><img src="/image35.webp" alt="Afiche de auxilio vehicular"><h3>Auxilio vehicular</h3></div>
-    <div class="catalog-item"><img src="/image36.webp" alt="Información de auxilio y rutas"><h3>Servicios y rutas</h3></div>
-    <div class="catalog-item"><img src="/image32.webp" alt="Afiche de grúa y asistencia"><h3>Grúa y asistencia</h3></div>
-    <div class="catalog-item"><img src="/image33.webp" alt="Mapa de ubicación"><h3>Referencia de ubicación</h3></div>
+    <div class="catalog-item"><img src="/imagen35.webp" alt="Afiche de auxilio vehicular"><h3>Auxilio vehicular</h3></div>
+    <div class="catalog-item"><img src="/imagen36.webp" alt="Información de auxilio y rutas"><h3>Servicios y rutas</h3></div>
+    <div class="catalog-item"><img src="/imagen32.webp" alt="Afiche de grúa y asistencia"><h3>Grúa y asistencia</h3></div>
+    <div class="catalog-item"><img src="/imagen33.webp" alt="Mapa de ubicación"><h3>Referencia de ubicación</h3></div>
   </div>
   <div class="cta-row"><button class="btn" data-go="registro" type="button">Registrarme y compartir ubicación</button></div>
 </section>
